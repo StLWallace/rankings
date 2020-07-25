@@ -13,7 +13,7 @@ source("R/functions.R")
 snackcakes_json <- fromJSON("data/snackcakes.json")
 
 # Create an encoded dataframe
-enc_df <- trans_df(snackcakes_json)
+enc_df <- trans_df(snackcakes_json, weights = c(10, 8, 5, 2, 0))
 
 # Run principal components analysis on the data.
 # Also removes columns with zero variance

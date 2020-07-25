@@ -1,7 +1,6 @@
 library(dplyr)
 library(magrittr)
 library(stringr)
-library(caret)
 library(ggplot2)
 
 # This returns all the tiers from the data
@@ -26,8 +25,8 @@ get_distinct <- function(data) {
 
 # Encodes the items numerically based on their tier
 # The default is to give the lowest 0 and increment by 1 for each tier
-encode_item <- function(item, row, tiers, weights=0) {
-  if (weights == 0) {
+encode_item <- function(item, row, tiers, weights) {
+  if (is.na(weights[1])) {
     weights <- seq((length(tiers) - 1), 0)
   }
   for (i in (1:length(tiers))) {
@@ -41,7 +40,7 @@ encode_item <- function(item, row, tiers, weights=0) {
 
 # Adds a column named for each distinct item
 # The value of the column is the encoded value
-add_enc_cols <- function(row, tiers, items, weights=0) {
+add_enc_cols <- function(row, tiers, items, weights) {
   for (item in items) {
     col_name <- item %>% tolower() %>% str_replace(" ", "_")
     row[, col_name] <- encode_item(item, row, tiers, weights)
@@ -50,12 +49,12 @@ add_enc_cols <- function(row, tiers, items, weights=0) {
 }
 
 # Transforms the dataframe and subsets it to the transformed columns
-trans_df <- function(data) {
+trans_df <- function(data, weights=NA) {
   tiers <- get_tiers(data)
   items <- get_distinct(data)
-  df <- add_enc_cols(snackcakes_json[1, ], tiers, items)
+  df <- add_enc_cols(snackcakes_json[1, ], tiers, items, weights)
   for (j in seq(2, nrow(snackcakes_json))) {
-    newrow <- add_enc_cols(snackcakes_json[j, ], tiers, items)
+    newrow <- add_enc_cols(snackcakes_json[j, ], tiers, items, weights)
     df %<>% bind_rows(newrow)
   }
   return(df %>% select(-tiers))
