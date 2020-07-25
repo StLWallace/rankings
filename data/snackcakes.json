@@ -1,0 +1,108 @@
+[
+  {
+    "name": "Kate",
+    "S": [
+      "Honey Buns", "Star Crunch", "Nutty Buddy"
+    ],
+    "A": [
+      "Zebra Cakes", "Oatmeal Cream Pies", "Glazed Honey Buns"
+    ],
+    "B": [
+      "Cosmic Brownies", "Fruit Pies", "Fig Bars"
+    ],
+    "C": [
+      "Birthday Cakes", "Vanilla Cup Cakes"
+    ],
+    "F": [
+      "Twinkies", "Red Velvet", "Chocolate Zingers", "HoHos", "Boston Creme Rolls", "Snoballs", "Cup Cakes", "Swiss Rolls", "Fancy Cakes", "Chocolate Chip", "Chocolate Cupcakes", "Red Zingers", "Yellow Zingers"
+    ]
+  },
+  {
+    "name": "Tim",
+    "S": ["Fancy Cakes"],
+    "A": [
+      "Glazed Honey Buns", "Oatmeal Cream Pies", "Honey Buns"
+    ],
+    "B": [
+      "Red Zingers", "Fig Bars", "Fruit Pies", "Zebra Cakes", "Birthday Cakes"
+    ],
+    "C": [
+      "Twinkies", "Yellow Zingers", "Vanilla Cup Cakes"
+    ],
+    "F": [
+      "Chocolate Chip", "Chocolate Cupcakes", "Cosmic Brownies", "Chocolate Zingers", "Snoballs", "Boston Creme Rolls", "Red Velvet", "HoHos", "Swiss Rolls", "Cup Cakes", "Nutty Buddy", "Star Crunch"
+    ]
+  },
+  {
+    "name": "Ross",
+    "S": [
+      "Star Crunch", "Fancy Cakes", "Swiss Rolls", "Zebra Cakes", "Chocolate Chip", "HoHos"
+    ],
+    "A": [
+      "Chocolate Cupcakes", "Cosmic Brownies", "Nutty Buddy", "Oatmeal Cream Pies", "Honey Buns", "Cup Cakes", "Birthday Cakes"
+    ],
+    "B": [
+      "Red Zingers", "Fig Bars"
+    ],
+    "C": [
+      "Glazed Honey Buns", "Boston Creme Rolls", "Red Velvet"
+    ],
+    "F": [
+      "Twinkies", "Chocolate Zingers", "Snoballs", "Fruit Pies", "Yellow Zingers", "Vanilla Cup Cakes"
+    ]
+  },
+  {
+    "name": "Megan",
+    "S": [
+      "Oatmeal Cream Pies", "Honey Buns",  "Nutty Buddy"
+    ],
+    "A": [
+      "Star Crunch", "Cosmic Brownies"
+    ],
+    "B": [
+      "Twinkies", "Red Velvet"
+    ],
+    "C": [
+      "Fig Bars", "Red Zingers", "Glazed Honey Buns"
+    ],
+    "F": [
+      "Boston Creme Rolls", "Cup Cakes", "Birthday Cakes", "Chocolate Cupcakes", "HoHos", "Chocolate Chip", "Zebra Cakes", "Swiss Rolls", "Fancy Cakes", "Chocolate Zingers", "Snoballs", "Fruit Pies", "Yellow Zingers", "Vanilla Cup Cakes"
+    ]
+  },
+  {
+    "name": "Stephen",
+    "S": [
+      "Fruit Pies", "Honey Buns",  "Nutty Buddy", "Glazed Honey Buns"
+    ],
+    "A": [
+      "Twinkies", "HoHos", "Swiss Rolls", "Zebra Cakes", "Cosmic Brownies"
+    ],
+    "B": [
+      "Oatmeal Cream Pies", "Cup Cakes", "Vanilla Cup Cakes", "Chocolate Zingers", "Birthday Cakes", "Chocolate Cupcakes", "Chocolate Chip"
+    ],
+    "C": [
+      "Fancy Cakes", "Yellow Zingers", "Boston Creme Rolls", "Star Crunch", "Fig Bars"
+    ],
+    "F": [
+      "Red Velvet", "Snoballs", "Red Zingers"
+    ]
+  },
+  {
+    "name": "Matt",
+    "S": [
+      "Oatmeal Cream Pies", "Star Crunch", "Nutty Buddy"
+    ],
+    "A": [
+      "Red Velvet", "Chocolate Cupcakes", "Cup Cakes", "Chocolate Chip", "HoHos", "Swiss Rolls", "Zebra Cakes"
+    ],
+    "B": [
+      "Fig Bars", "Honey Buns", "Fruit Pies", "Cosmic Brownies"
+    ],
+    "C": [
+      "Birthday Cakes", "Vanilla Cup Cakes", "Fancy Cakes", "Glazed Honey Buns"
+    ],
+    "F": [
+      "Yellow Zingers", "Boston Creme Rolls", "Chocolate Zingers", "Twinkies", "Snoballs", "Red Zingers"
+    ]
+  }
+]
