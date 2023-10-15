@@ -1,0 +1,2 @@
+# Snack Cake Rankings
+My friends and I were bored during COVID lockdown and we were talking about all our rankings for various snack cakes. I am a nerd and I wanted to try visualizing everyone's preferences in a simpler way. To do this, I collected results and then used PCA to create a lower-dimension representation and plotting it. Admittedly, this loses a good amount of the variance, but it's still interesting and this is stupid after all. I used R to do all this.
